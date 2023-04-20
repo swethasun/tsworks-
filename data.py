@@ -1,4 +1,4 @@
-url = 'https://finance.yahoo.com/quote/IBM/history?p=IBM'
+url = 'https://finance.yahoo.com/quote/IBM/history?p=IBM'       #can be used for different companies
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
